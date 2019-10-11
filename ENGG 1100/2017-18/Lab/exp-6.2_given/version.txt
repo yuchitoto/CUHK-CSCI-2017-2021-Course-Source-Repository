@@ -1,0 +1,10 @@
+These are the given libraires for ENGG1100 (2017-2018)
+---------------------
+2017.07.18 Modified TM1637DisplayClass (Warren)
+  void setValue(int num);			// leading zero = true;
+  void setDigit(int num, uint8_t pos = 0);	//num = 1 digit only
+2017.07.18 Modified UltrasoundSensor (Warren)
+  void setDistanceLimit(int num);			// 0 to 400cm
+  -------------------
+
+version: 2017.07.18

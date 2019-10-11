@@ -1,0 +1,8 @@
+These are the given libraires for ENGG1100 (2017-2018)
+---------------------
+2017.07.18 Modified TM1637DisplayClass (Warren)
+  void setValue(int num);			// leading zero = true;
+  void setDigit(int num, uint8_t pos = 0);	//num = 1 digit only
+  -------------------
+
+version: 2017.07.18

@@ -1,0 +1,54 @@
+// preorder traversal
+void traversal(Node* p)
+{
+    if (!p) return;
+    cout << p->data;
+    traversal(p->left);
+    traversal(p->right);
+}
+ 
+// inorder traversal
+void traversal(Node* p)
+{
+    if (!p) return;
+    traversal(p->left);
+    cout << p->data;
+    traversal(p->right);
+}
+ 
+// postorder traversal
+void traversal(Node* p)
+{
+    if (!p) return;
+    traversal(p->left);
+    traversal(p->right);
+    cout << p->data;
+}
+ 
+// level-order traversal
+void traversal(Node* root)
+{
+    queue<Node*> q;
+    q.push(root);
+    while (!q.empty())
+    {
+        Node* p = q.front(); q.pop();
+        cout << p->data;
+        if (p->left)  q.push(p->left);
+        if (p->right) q.push(p->right);
+    }
+}
+ 
+// preorder traversal
+void traversal(Node* root)
+{
+    stack<Node*> s;
+    s.push(root);
+    while (!s.empty())
+    {
+        Node* p = s.front(); s.pop();
+        cout << p->data;
+        if (p->right) s.push(p->right);
+        if (p->left)  s.push(p->left);
+    }
+}
