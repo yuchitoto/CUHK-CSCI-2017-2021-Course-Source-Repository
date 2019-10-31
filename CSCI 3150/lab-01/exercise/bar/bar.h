@@ -1,0 +1,1 @@
+void bar_func(const char *);
