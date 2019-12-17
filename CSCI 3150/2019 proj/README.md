@@ -1,5 +1,5 @@
 # CSCI3150 2019 Final Project
-If this piece of ____ really does not allow using functions in functions other than read_t and open_t, you can still implement functions using preprocessors.
+If this project really does not allow using functions in functions other than read_t and open_t, you can still implement functions using preprocessors.
 
 ## Preprocessor Using Examples
 
