@@ -1,5 +1,7 @@
 # 2019 sem 1
 ## HW1
+[@sinyiwsy](https://github.com/sinyiwsy/CSCI-3260-Assignment1)
+
 [@yuchitoto](https://github.com/yuchitoto/CSCI3260_Assgn1)
 ## HW2
 [@sinyiwsy](https://github.com/sinyiwsy/CSCI-3260-Assignment2)
