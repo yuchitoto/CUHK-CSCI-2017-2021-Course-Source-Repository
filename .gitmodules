@@ -1,0 +1,12 @@
+[submodule "CSCI 3150/2019/CSCI3150-proj"]
+	path = CSCI 3150/2019/CSCI3150-proj
+	url = https://github.com/yuchitoto/CSCI3150-proj
+[submodule "CSCI 3150/2019/CSCI3150-Assgn3"]
+	path = CSCI 3150/2019/CSCI3150-Assgn3
+	url = https://github.com/yuchitoto/CSCI3150-Assgn3
+[submodule "CSCI 3150/2019/CSCI3150_ASSGN2"]
+	path = CSCI 3150/2019/CSCI3150_ASSGN2
+	url = https://github.com/yuchitoto/CSCI3150_ASSGN2
+[submodule "CSCI 3150/2019/csci3150-Assgn1"]
+	path = CSCI 3150/2019/csci3150-Assgn1
+	url = https://github.com/yuchitoto/csci3150-Assgn1
