@@ -1,0 +1,4 @@
+Average silhouette score is a common indicator in finding the optimal number of clusters. From the "Evaluation Metrics" graph, we can see the number of clusters with the highest average silhouette score is 5, thus it is the optimal number of cluster which align with the way of generation of data.
+
+Moreover, the other 3 metrics (ARI, MRI and v measure) also has their highest point at number of clusters being 5 which agree with the observation above.
+

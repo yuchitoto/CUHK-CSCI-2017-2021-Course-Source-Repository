@@ -1,0 +1,10 @@
+Average silhouette score is a common indicator in finding the optimal number of clusters. From the "Evaluation Metrics" graph, we can see the number of clusters with the highest average silhouette score is 8, thus it is the optimal number of cluster. From this mean idea of the 8 clusters, we can see the algorithm's clustering result is lacking '5' and '7'. From the result, it may because of the similarity between '7' and {'4','9'} and between '5' and '6', the algorithm classified digit image '7' and '5' into these 3 classes.
+
+For the overview in the metrics, the average silhouette score is significantly lower than others metric which is due to the wrong classification of different clusters which may have alike shape (e.g. '7' and '9').
+
+For the MRI score, it has a continuous growth rate and also shown a turning point at the number of clusters 8. As MRI is measuring the similarity between the ground truth label and  predicted label, it ignore the completeness. For larger number of clusters, the data within a class are more easily to be clustered into different clusters. The situation of non-complete clustering is more usual (i.e. class members splits across different clusters) which adversely increase the score of MRI.
+e.g. for ground truth [0,0,1,1] ,prediction [0,1,2,3] have the same MRI score with [0,0,1,1] and higher score than [0,1,1,1].
+
+For ARI and v measure score, they are the highest at number of clusters being 8. 
+This situation for v measure may due to the higher completeness value for clustering in number than lower than 10 (e.g. both '5' and '6' may be clustered into the same class).
+e.g. for ground truth [0,0,1,1] ,prediction [0,0,0,0] have the same completeness score with [0,0,1,1].
