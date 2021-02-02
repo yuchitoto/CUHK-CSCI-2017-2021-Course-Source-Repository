@@ -3,4 +3,4 @@
 
 [2](https://github.com/sinyiwsy/csci4180)
 
-Resources are not shared publicly. Please contact contributors for resources.
+Resources are not shared publicly. Please contact contributors and repo owners for resources.
